@@ -1,0 +1,45 @@
+name: sansain
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  curved_navigation_bar: ^1.0.6
+  clippy_flutter: ^2.0.0-nullsafety.1
+  flutter_rating_bar: ^4.0.1
+  badges: ^3.1.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/images/profile.png
+    - assets/images/carts/1.jpg
+    - assets/images/carts/2.jpg
+    - assets/images/carts/3.jpg
+    - assets/images/carts/4.jpg
+    - assets/images/categories/1.jpg
+    - assets/images/categories/2.jpg
+    - assets/images/categories/3.jpg
+    - assets/images/categories/4.jpg
+    - assets/images/items/1.jpg
+    - assets/images/items/2.jpg
+    - assets/images/items/3.jpg
+    - assets/images/items/4.jpg
+    - assets/images/avatar/5.png
+    - assets/images/avatar/6.png
+    - assets/images/avatar/7.png
+    - assets/images/avatar/8.png
+    - assets/avatar.png
