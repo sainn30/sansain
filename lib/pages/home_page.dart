@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.transparent,
         height: 70,
         color: const Color(0xFFF6B512),
-        buttonBackgroundColor: Colors.orangeAccent, // Highlight warna latar belakang ikon aktif
+        buttonBackgroundColor: Color(0xFFF6B512), // Highlight warna latar belakang ikon aktif
         items: const [
           Icon(Icons.home, size: 30, color: Colors.white),
           Icon(Icons.shopping_cart, size: 30, color: Colors.white),

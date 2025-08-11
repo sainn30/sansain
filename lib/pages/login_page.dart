@@ -25,7 +25,7 @@ class _LoginPageState extends State<LoginPage> {
         const Text(
           'Sansain Store',
           style: TextStyle(
-            fontSize: 24,
+            fontSize: 32,
             fontWeight: FontWeight.bold,
             color: Color.fromARGB(255, 246, 181, 18),
           ),
@@ -37,15 +37,6 @@ class _LoginPageState extends State<LoginPage> {
   Widget _buildHeader() {
     return const Column(
       children: [
-        Text(
-          'Welcome Back!',
-          style: TextStyle(
-            fontSize: 32,
-            fontWeight: FontWeight.bold,
-            color: Color(0xFFF6B512),
-          ),
-        ),
-        SizedBox(height: 10),
         Text(
           'Login To Continue',
           style: TextStyle(fontSize: 18, color: Color(0xFF5F5F5F)),
