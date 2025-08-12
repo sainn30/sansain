@@ -107,7 +107,7 @@ class RegisterPage extends StatelessWidget {
                 Navigator.pushNamed(context, 'LoginPage');
               },
               child: const Text(
-                'Don\'t have an account? Sign In',
+                'Already have an account? Sign In',
                 style: TextStyle(color: Color(0xFF5F5F5F)),
               ),
             ),
